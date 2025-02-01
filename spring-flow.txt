@@ -1,0 +1,28 @@
+
+2- new AnnotatedBeanDefinitionReader
+	- ConditionEvaluator
+	- registerAnnotationConfigProcessors
+		- OrderComparator
+		- AutoriwreCandidateResolver
+		- 6 bean defs
+			- internalConfigurationAnnotationProcessor (ConfigurationClassPostProcessor)
+			- internalAutowiredAnnotationProcessor (AutowiredAnnotationBeanPostProcessor)
+			- internalEventListenerProcessor (EventListenerMethodProcessor)
+			- internalEventListenerFactory (DefaultEventListenerFactory)
+3- new ClassPathBeanDefinitionScanner
+
+5- reader.register
+
+7- prepareRefresh
+8- obtainFreshBeanFactory
+9- prepareBeanFactory
+10- postProcessBeanFactory
+
+12- invokeBeanFactoryPostProcessors
+13- registerBeanPostProcessors
+14- initMessageSource
+15- initApplicationEventMulticaster
+16- onRefresh
+17- registerListeners
+18- finishBeanFactoryInitialization
+19- finishRefresh
