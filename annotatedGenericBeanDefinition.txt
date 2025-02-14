@@ -1,0 +1,9 @@
+- metaData
+    - mergedAnnotations
+        - source (ApplicationConfig.class)
+        - element (ApplicationConfig.class)
+        - searchStrategy (INHERITED_ANNOTATIONS) enum
+        - searchEnclosingClass (return false) (adds additional check for enclosing class if true)
+        - repeatableContainer (class fady)
+        - annotationFilter (java.lang, org.springframework.lang)
+    - introspectedClass (ApplicationConfig.class)
